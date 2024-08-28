@@ -1,0 +1,39 @@
+/* styles.css */
+.hours {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    max-width: 400px;
+  }
+  
+  .hours h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .hours ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .hours ul li {
+    margin: 5px 0;
+  }
+  
+  @media (max-width: 600px) {
+    .hours {
+      max-width: 100%;
+      padding: 15px;
+    }
+  
+    .hours h3 {
+      font-size: 1.2em;
+    }
+  
+    .hours ul li {
+      font-size: 0.9em;
+    }
+  }
+  
